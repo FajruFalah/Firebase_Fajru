@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">click to login</string>
+    <string name="click_to_register">Click to register</string>
+    <string name="logout">Logout</string>
+    <string name="app_desc">Aplikasi Notes Firebase adalah solusi canggih untuk mengatur dan menyimpan catatan Anda secara efisien. Dengan integrasi kuat dengan platform Firebase, aplikasi ini memberikan pengalaman tak tertandingi dalam mencatat, mengedit, dan mengelola ide-ide Anda. Fitur-fitur intuitif seperti sinkronisasi otomatis, akses lintas perangkat, dan kemampuan berbagi mudah membuatnya menjadi teman terbaik bagi produktivitas Anda.</string>
+    <string name="nama_fajru_falah">Nama : Fajru Falah</string>
+    <string name="mahasiswa">Mahasiswa</string>
+    <string name="_10120054">NIM : 10120054</string>
+    <string name="email_fajrufalah14_gmail_com">Email : fajrufalah14@gmail.com</string>
+    <string name="profile_image">Hallooo</string>
+    <string name="deskripsi">I\'m Fajru Falah, I am a 20 year old newbie web developer from indonesia. loading to sarjana informatics engineering at Indonesian Computer University.</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="register_with_google">Register with Google</string>
+    <string name="informasi">Informasi</string>
+    <string name="screen1">Firebase Database Realtime</string>
+    <string name="screen2">Firebase Authentication Email</string>
+    <string name="screen3">Firebase Authentication Google</string>
+    <string name="screen1desc">Aplikasi Notes App dengan Firebase Realtime Database adalah sebuah aplikasi berbasis ponsel yang memungkinkan pengguna untuk membuat, mengedit, dan menghapus catatan secara real-time. Aplikasi ini menggunakan Firebase Realtime Database sebagai backend untuk menyimpan dan mengelola data catatan pengguna.</string>
+    <string name="screen2desc">Aplikasi Notes App merupakan sebuah platform yang dirancang untuk membantu pengguna dalam mengelola dan menyimpan catatan pribadi dengan mudah dan aman. Salah satu fitur utama dari aplikasi ini adalah integrasi dengan layanan Firebase Authentication menggunakan metode otentikasi berbasis email.</string>
+    <string name="screen3desc">Aplikasi Notes App adalah sebuah aplikasi berbasis platform yang dirancang untuk membantu pengguna dalam mencatat, menyimpan, dan mengelola berbagai catatan atau memo penting dalam kehidupan sehari-hari. Aplikasi ini memiliki fitur yang didukung oleh Firebase Authentication Google, yang memungkinkan pengguna untuk mengakses aplikasi dengan menggunakan akun Google mereka.</string>
+
+
+</resources>

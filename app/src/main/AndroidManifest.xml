@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Izin yang diperlukan -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Material3.Light"
+        tools:targetApi="31">
+        <activity
+            android:name=".AddNoteActivity"
+            android:exported="false" />
+        <!-- Aktivitas -->
+        <activity
+            android:name=".LogoutFragment"
+            android:exported="false" />
+        <activity
+            android:name=".CatatanFragment"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <!-- Elemen <intent-filter> harus ditempatkan di dalam activity ini -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoteDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <!-- Aktivitas NavigationActivity -->
+        <activity
+            android:name=".NavigationActivity"
+            android:exported="true">
+            <!-- Anda dapat menambahkan intent-filter sesuai kebutuhan -->
+        </activity>
+    </application>
+</manifest>
